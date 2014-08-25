@@ -88,4 +88,20 @@
     
 }
 
+- (BOOL)canBecomeFirstResponder {
+    return YES;
+}
+
+- (void) copy:(id)sender {
+    [UIPasteboard generalPasteboard].string = self.text;
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    if ([[touches anyObject] tapCount] == 2 && [self becomeFirstResponder]) {
+        UIMenuController *theMenu = [UIMenuController sharedMenuController];
+        [theMenu setTargetRect: self.bounds inView:self];
+        [theMenu setMenuVisible:YES animated:YES];
+    }
+}
+
 @end

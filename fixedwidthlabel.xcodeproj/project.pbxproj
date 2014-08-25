@@ -14,6 +14,7 @@
 		817BA47119AB75610074D63E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817BA47019AB75610074D63E /* Images.xcassets */; };
 		817BA47D19AB75610074D63E /* fixedwidthlabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817BA47C19AB75610074D63E /* fixedwidthlabelTests.m */; };
 		817BA48819AB75890074D63E /* JALFixedViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 817BA48719AB75890074D63E /* JALFixedViewLabel.m */; };
+		817BA48A19AB82780074D63E /* Blog.md in Sources */ = {isa = PBXBuildFile; fileRef = 817BA48919AB82780074D63E /* Blog.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		817BA47C19AB75610074D63E /* fixedwidthlabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fixedwidthlabelTests.m; sourceTree = "<group>"; };
 		817BA48619AB75890074D63E /* JALFixedViewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JALFixedViewLabel.h; sourceTree = "<group>"; };
 		817BA48719AB75890074D63E /* JALFixedViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JALFixedViewLabel.m; sourceTree = "<group>"; };
+		817BA48919AB82780074D63E /* Blog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Blog.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		817BA45719AB75600074D63E = {
 			isa = PBXGroup;
 			children = (
+				817BA48919AB82780074D63E /* Blog.md */,
 				817BA46219AB75600074D63E /* fixedwidthlabel */,
 				817BA47919AB75610074D63E /* fixedwidthlabelTests */,
 				817BA46119AB75600074D63E /* Products */,
@@ -223,6 +226,7 @@
 				817BA48819AB75890074D63E /* JALFixedViewLabel.m in Sources */,
 				817BA46C19AB75610074D63E /* ViewController.m in Sources */,
 				817BA46919AB75600074D63E /* AppDelegate.m in Sources */,
+				817BA48A19AB82780074D63E /* Blog.md in Sources */,
 				817BA46619AB75600074D63E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
