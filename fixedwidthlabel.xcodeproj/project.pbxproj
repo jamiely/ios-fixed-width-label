@@ -13,6 +13,7 @@
 		817BA46F19AB75610074D63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817BA46D19AB75610074D63E /* Main.storyboard */; };
 		817BA47119AB75610074D63E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817BA47019AB75610074D63E /* Images.xcassets */; };
 		817BA47D19AB75610074D63E /* fixedwidthlabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817BA47C19AB75610074D63E /* fixedwidthlabelTests.m */; };
+		817BA48819AB75890074D63E /* JALFixedViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 817BA48719AB75890074D63E /* JALFixedViewLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		817BA47619AB75610074D63E /* fixedwidthlabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fixedwidthlabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		817BA47B19AB75610074D63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		817BA47C19AB75610074D63E /* fixedwidthlabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fixedwidthlabelTests.m; sourceTree = "<group>"; };
+		817BA48619AB75890074D63E /* JALFixedViewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JALFixedViewLabel.h; sourceTree = "<group>"; };
+		817BA48719AB75890074D63E /* JALFixedViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JALFixedViewLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				817BA46D19AB75610074D63E /* Main.storyboard */,
 				817BA47019AB75610074D63E /* Images.xcassets */,
 				817BA46319AB75600074D63E /* Supporting Files */,
+				817BA48619AB75890074D63E /* JALFixedViewLabel.h */,
+				817BA48719AB75890074D63E /* JALFixedViewLabel.m */,
 			);
 			path = fixedwidthlabel;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817BA48819AB75890074D63E /* JALFixedViewLabel.m in Sources */,
 				817BA46C19AB75610074D63E /* ViewController.m in Sources */,
 				817BA46919AB75600074D63E /* AppDelegate.m in Sources */,
 				817BA46619AB75600074D63E /* main.m in Sources */,

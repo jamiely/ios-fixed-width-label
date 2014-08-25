@@ -7,17 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "JALFixedViewLabel.h"
 
 @interface ViewController ()
-            
-
+@property (nonatomic, strong) IBOutlet JALFixedViewLabel* labelView;
 @end
 
 @implementation ViewController
             
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.labelView.text = @"abcdefghijklmnop";
+    self.labelView.textColor = [UIColor blueColor];
+    self.labelView.textFont = [UIFont systemFontOfSize: 25];
 }
 
 - (void)didReceiveMemoryWarning {
