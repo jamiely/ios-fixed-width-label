@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                        characters per row.
                        DESC
   s.homepage         = "https://github.com/jamiely/ios-fixed-width-label"
-  s.screenshots     = "jamiely.github.io/ios-fixed-width-label/screenshots/iphone4.png", "jamiely.github.io/ios-fixed-width-label/screenshots/iphone5.png", "jamiely.github.io/ios-fixed-width-label/screenshots/ipad.png"
+  s.screenshots     = "http://jamiely.github.io/ios-fixed-width-label/screenshots/iphone4.png", "http://jamiely.github.io/ios-fixed-width-label/screenshots/iphone5.png", "http://jamiely.github.io/ios-fixed-width-label/screenshots/ipad.png"
   s.license          = 'MIT'
   s.author           = { "Jamie Ly" => "jamie.ly@gmail.com" }
   s.source           = { :git => "https://github.com/jamiely/ios-fixed-width-label.git", :tag => s.version.to_s }
