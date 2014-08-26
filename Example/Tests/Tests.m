@@ -6,37 +6,19 @@
 //  Copyright (c) 2014 Jamie Ly. All rights reserved.
 //
 
+#include <Expecta+Snapshots/EXPMatchers+FBSnapshotTest.h>
+#include <JALFixedViewLabel.h>
+
 SpecBegin(InitialSpecs)
 
-describe(@"these will fail", ^{
-
-    it(@"can do maths", ^{
-        expect(1).to.equal(2);
-    });
-
-    it(@"can read", ^{
-        expect(@"number").to.equal(@"string");
-    });
-    
-    it(@"will wait and fail", ^AsyncBlock {
-        
-    });
-});
-
-describe(@"these will pass", ^{
-    
-    it(@"can do maths", ^{
-        expect(1).beLessThan(23);
-    });
-    
-    it(@"can read", ^{
-        expect(@"team").toNot.contain(@"I");
-    });
-    
-    it(@"will wait and succeed", ^AsyncBlock {
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
-            done();
-        });
+describe(@"manual matching", ^{
+    it(@"matches view", ^{
+        JALFixedViewLabel *view = [[JALFixedViewLabel alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+        view.text = @"abcdefghijklmnop";
+        view.textColor = [UIColor blueColor];
+        view.textFont = [UIFont systemFontOfSize: 25];
+//        expect(view).to.recordSnapshotNamed(@"JALFixedViewLabel");
+        expect(view).to.haveValidSnapshotNamed(@"JALFixedViewLabel");
     });
 });
 
