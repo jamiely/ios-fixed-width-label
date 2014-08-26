@@ -1,9 +1,9 @@
 # ios-fixed-width-label
 
 [![CI Status](http://img.shields.io/travis/jamiely/ios-fixed-width-label.svg?style=flat)](https://travis-ci.org/jamiely/ios-fixed-width-label)
-[![Version](https://img.shields.io/cocoapods/v/ios-fixed-width-label.svg?style=flat)](http://cocoadocs.org/docsets/ios-fixed-width-label)
-[![License](https://img.shields.io/cocoapods/l/ios-fixed-width-label.svg?style=flat)](http://cocoadocs.org/docsets/ios-fixed-width-label)
-[![Platform](https://img.shields.io/cocoapods/p/ios-fixed-width-label.svg?style=flat)](http://cocoadocs.org/docsets/ios-fixed-width-label)
+[![Version](https://img.shields.io/cocoapods/v/JALFixedWidthLabel.svg?style=flat)](http://cocoadocs.org/docsets/JALFixedWidthLabel)
+[![License](https://img.shields.io/cocoapods/l/JALFixedWidthLabel.svg?style=flat)](http://cocoadocs.org/docsets/JALFixedWidthLabel)
+[![Platform](https://img.shields.io/cocoapods/p/JALFixedWidthLabel.svg?style=flat)](http://cocoadocs.org/docsets/JALFixedWidthLabel)
 
 ## Usage
 
