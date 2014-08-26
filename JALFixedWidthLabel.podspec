@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Jamie Ly" => "jamie.ly@gmail.com" }
   s.source           = { :git => "https://github.com/jamiely/ios-fixed-width-label.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/jamiely'
+  s.social_media_url = 'https://twitter.com/jamiely'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
