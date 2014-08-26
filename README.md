@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Jamie Ly, me@jamie.ly
+Jamie Ly
 
 ## License
 
